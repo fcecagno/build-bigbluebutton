@@ -6,6 +6,12 @@ sbt compile
 sbt publish
 sbt publishLocal
 
+cd ~/dev/bigbluebutton/bbb-fsesl-client
+sbt clean
+sbt compile
+sbt publish
+sbt publishLocal
+
 cd ~/dev/bigbluebutton/akka-bbb-apps
 sbt clean
 sbt debian:packageBin
