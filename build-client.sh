@@ -2,6 +2,9 @@
 
 set -xe
 
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR
+
 source hostname.sh
 
 cd ~/dev/bigbluebutton/bigbluebutton-client
