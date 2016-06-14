@@ -8,13 +8,11 @@ cd $DIR
 sudo bbb-conf --stop
 
 ./build-config.sh
-./build-akka.sh
 ./build-apps.sh
 ./build-demo.sh
 # ./build-applet.sh
 ./build-client.sh
 ./build-web.sh
-./build-html5.sh
 cd ~/dev/bigbluebutton/record-and-playback/
 ./deploy.sh
 
